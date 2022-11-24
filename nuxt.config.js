@@ -18,6 +18,9 @@ export default {
     ]
   },
   target: 'static',
+  router: {
+    base: '/converter-currency/'
+  },
   css: [
     '@/assets/styles/index.scss',
   ],
