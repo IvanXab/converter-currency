@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  overflow-y: hidden;
+}
+
+div#__layout {
+  background-image: linear-gradient(to top, #322828, #272020, #1c1818, #110e0f, #000000);
+}
+
+div#app {
+  background: none;
+}
+
+.v-application--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
