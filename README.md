@@ -1,6 +1,6 @@
 # Converter Currency
 
-## Инструкция по установку и запуску:
+## Инструкция по установке и запуску:
 
 ```bash
 # install dependencies
